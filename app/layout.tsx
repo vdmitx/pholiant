@@ -28,22 +28,22 @@ export default function RootLayout({
                 <Link href='/about'>About</Link>
               </li>
               <li>
-                <Link href='/about'>Team</Link>
+                <Link href='/team'>Team</Link>
               </li>
               <li>
                 <Link href='/contact'>Contact</Link>
               </li>
               <li>
-                <Link href='/devops'>DevOps</Link>
-              </li>
-              <li>
                 <Link href='/frontend'>FrontEnd</Link>
               </li>
               <li>
-                <Link href='/frontend'>BackEnd</Link>
+                <Link href='/backend'>BackEnd</Link>
               </li>
               <li>
-                <Link href='/frontend'>GameDev</Link>
+                <Link href='/gamedev'>GameDev</Link>
+              </li>
+              <li>
+                <Link href='/devops'>DevOps</Link>
               </li>
             </ul>
           </nav>
