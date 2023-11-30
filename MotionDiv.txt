@@ -1,0 +1,9 @@
+I have created this component and used in my code
+
+"use client";
+
+import { motion } from "framer-motion";
+
+export const MotionDiv = motion.div;
+
+It is working
