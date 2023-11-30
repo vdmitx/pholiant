@@ -22,7 +22,7 @@ export default function RootLayout({
           <nav className='container'>
             <ul className='flex gap-6 text-sm font-medium uppercase tracking-wider text-gray-500'>
               <li>
-                <Link href='/'>Home</Link>
+                <Link href='/'>Home (First Template)</Link>
               </li>
               <li>
                 <Link href='/about'>About</Link>
