@@ -2,6 +2,8 @@
 
 import Link from 'next/link'
 import { motion } from 'framer-motion'
+import Image from 'next/image'
+import logo from '../images/logo.png';
 
 const CompanyLayout = ({ children }: { children: React.ReactNode }) => {
   return (
@@ -59,6 +61,14 @@ const CompanyLayout = ({ children }: { children: React.ReactNode }) => {
               >
                 <Link href='/gamedev'>GameDev</Link>
               </motion.div>
+              <motion.div
+                initial={{ opacity: 0, x: -20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.2 }}
+              >
+                <Link href='/gamedev'>GameDev</Link>
+              </motion.div>
+              <Image src={logo} width={50} height={70} alt="logo"/>
             </ul>
           </nav>
         </div>

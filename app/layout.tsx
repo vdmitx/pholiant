@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import Link from 'next/link'
+import Image from 'next/image'
+import logo from '../app/images/logo.png';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,6 +23,7 @@ export default function RootLayout({
         <header className='bg-gray-50 py-10'>
           <nav className='container'>
             <ul className='flex gap-6 text-sm font-medium uppercase tracking-wider text-gray-500'>
+              <Image src={logo} width={50} height={70} alt="logo"/>
               <li>
                 <Link href='/'>Home</Link>
               </li>
