@@ -13,6 +13,8 @@ export default async function Page() {
       <br />
       <h2 className='text-2xl font-bold'>How to import images in Next.js</h2>
       <br />
+      <p>Images are a common part of many websites. It’s important that you learn how to use the images properly in NextJS to make use of all of the optimizations that the framework developers have provided for us.</p>
+      <br />
       <h2 className='text-2xl font-bold'>How to Style Images in Next.js</h2>
       <br />
       <p>Next.js provides a built-in Image component, which provides benefits like lazy loading, 
