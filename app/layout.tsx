@@ -23,9 +23,9 @@ export default function RootLayout({
         <header className='bg-gray-50 py-10'>
           <nav className='container'>
             <ul className='flex gap-6 text-sm font-medium uppercase tracking-wider text-gray-500'>
-              <Image src={logo} width={50} height={70} alt="logo"/>
+                <Link href='/'><Image className='rounded' src={logo} width={50} height={70} alt="logo"/></Link>
               <li>
-                <Link href='/'>Home (First Template)</Link>
+                <Link href='/'>Home</Link>
               </li>
               <li>
                 <Link href='/about'>About</Link>

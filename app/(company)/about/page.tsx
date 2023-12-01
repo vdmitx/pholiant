@@ -5,7 +5,9 @@ export default async function Page() {
 
   return (
     <div>
-      <h1 className='text-3xl font-bold'>About</h1>
+      <h1 className='text-1xl font-bold'>Who we are?</h1>
+      <p>Hey, we are a full-stack developers from the many contries, with a passion for ReactJS.</p>
+      <p>We are an enthusiastic and hardworking developer, driven by a desire to learn and explore ideas.</p>
     </div>
   )
 }
