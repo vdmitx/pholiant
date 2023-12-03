@@ -1,8 +1,11 @@
 import { delay } from '@/lib/utils'
 // npm i react-syntax-highlighter
 // npm install prismjs
-// import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-// import { dark } from 'react-syntax-highlighter/dist/esm/styles/prism';
+// npm i highlight.js
+import hljs from 'highlight.js/lib/common';
+import 'highlight.js/styles/night-owl.css';
+import javascript from 'highlight.js/lib/languages/javascript';
+hljs.registerLanguage('javascript', javascript);
 
 export default async function Page() {
   await delay(1000)
@@ -15,6 +18,7 @@ export default async function Page() {
       <br />
       <p>Images are a common part of many websites. It’s important that you learn how to use the images properly in NextJS to make use of all of the optimizations that the framework developers have provided for us.</p>
       <br />
+      <hr />
       <h2 className='text-2xl font-bold'>How to Style Images in Next.js</h2>
       <br />
       <p>Next.js provides a built-in Image component, which provides benefits like lazy loading, 
@@ -63,6 +67,12 @@ export default async function Page() {
           );
       }
       `}</pre>
+      <pre><code className="js">
+        {`
+        fetch('{url}')
+        .then(response => console.log(response));
+        `}
+      </code></pre>
     </div>
 
   )
