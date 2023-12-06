@@ -8,9 +8,9 @@ import logo from '../../logo.png';
 
 export default function ActionAreaCard() {
   return (
-    <div className='flex'>
+    <div className='grid grid-cols-4 gap-4 content-center ...'>
+      {itemData.map((item) => (
       <Card sx={{ maxWidth: 345 }} >
-        {itemData.map((item) => (
           <CardActionArea key={item.id} >
           <CardMedia
             component="img"
@@ -28,45 +28,11 @@ export default function ActionAreaCard() {
             </Typography>
           </CardContent>
         </CardActionArea>
-        ))};
       </Card>
+      ))};
     </div>
   );
 }
-
-// import Box from "@mui/material/Box";
-// import ImageList from "@mui/material/ImageList";
-// import ImageListItem from "@mui/material/ImageListItem";
-// import ImageListItemBar from "@mui/material/ImageListItemBar";
-// import Image from "next/image";
-
-// export default function TitlebarBelowMasonryImageList() {
-//   return (
-//     <Box>
-//       <ImageList variant="masonry" cols={3} gap={8}>
-//         {itemData.map((item) => (
-//           <ImageListItem key={item.img}>
-//             {/* <img
-//               src={`${item.img}?w=248&fit=crop&auto=format`}
-//               srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
-//               alt={item.title}
-//               loading="lazy"
-              
-//             /> */}
-//             <Image
-//               src={`${item.img}?w=248&fit=crop&auto=format`}
-//               srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
-//               alt={item.title}
-//               loading="lazy"
-//               fill={true}
-//             />
-//             <ImageListItemBar position="below" title={item.author} />
-//           </ImageListItem>
-//         ))}
-//       </ImageList>
-//     </Box>
-//   );
-// }
 
 const itemData = [
   {
