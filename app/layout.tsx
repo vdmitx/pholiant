@@ -23,31 +23,16 @@ export default function RootLayout({
         <header className='bg-gray-50 py-10'>
           <nav className='container'>
             <ul className='flex gap-6 text-sm font-medium uppercase tracking-wider text-gray-500'>
-                <Link href='/'><Image className='rounded' src={logo} width={50} height={70} alt="logo"/></Link>
-              <li>
-                <Link href='/'>Home</Link>
-              </li>
-              <li>
-                <Link href='/about'>About</Link>
-              </li>
-              <li>
-                <Link href='/team'>Team</Link>
-              </li>
-              <li>
-                <Link href='/contact'>Contact</Link>
-              </li>
-              <li>
-                <Link href='/frontend'>FrontEnd</Link>
-              </li>
-              <li>
-                <Link href='/backend'>BackEnd</Link>
-              </li>
-              <li>
-                <Link href='/gamedev'>GameDev</Link>
-              </li>
-              <li>
-                <Link href='/devops'>DevOps</Link>
-              </li>
+              <li><Link href='/'><Image className='rounded' src={logo} width={50} height={70} alt="logo"/></Link></li>
+              <li><Link href='/'>Home</Link></li>
+              <li><Link href='/about'>About</Link></li>
+              <li><Link href='/team'>Team</Link></li>
+              <li><Link href='/contact'>Contact</Link></li>
+              <li><Link href='/frontend'>FrontEnd</Link></li>
+              <li><Link href='/backend'>BackEnd</Link></li>
+              <li><Link href='/gamedev'>GameDev</Link></li>
+              <li><Link href='/mobile'>Mobile</Link></li>
+              <li><Link href='/devops'>DevOps</Link></li>
             </ul>
           </nav>
         </header>

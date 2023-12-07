@@ -11,15 +11,21 @@
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.19",
     "@mui/material": "^5.14.19",
-    "antd": "^5.11.5",
+    "arrow-keys-react": "^1.0.6",
     "framer-motion": "^10.16.5",
     "highlight.js": "^11.9.0",
     "next": "14.0.3",
     "prismjs": "^1.29.0",
     "react": "^18",
     "react-dom": "^18",
-    "react-syntax-highlighter": "^15.5.0"
+    "react-responsive-carousel": "^3.2.23",
+    "react-swipeable-views-react-18-fix": "^0.14.1",
+    "react-swipeable-views-utils": "^0.14.0",
+    "react-syntax-highlighter": "^15.5.0",
+    "sass": "^1.69.5",
+    "swiper": "^11.0.5"
   },
   "devDependencies": {
     "@types/node": "^20",

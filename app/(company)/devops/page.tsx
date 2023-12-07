@@ -1,6 +1,6 @@
 import { delay } from '@/lib/utils'
 import React from 'react';
-import { Divider } from 'antd';
+// import { Divider } from 'antd';
 
 export default async function Page() {
   await delay(1000)
@@ -8,7 +8,6 @@ export default async function Page() {
   return (
     <div>
         <h1 className='text-3xl font-bold'>DevOps</h1>
-        <Divider />
         <p>YAML</p>
         <p>Example</p>
         <pre>{`
@@ -19,7 +18,6 @@ export default async function Page() {
             publication-year: 1981
             pages: 224
         `}</pre>
-        <Divider />
         <p>JSON</p>
         <p>Example</p>
         <pre>{`
@@ -32,7 +30,6 @@ export default async function Page() {
                 }
             }
         `}</pre>
-        <Divider dashed />
         <h3>What?</h3>
         <p>Example</p>
         <p>
