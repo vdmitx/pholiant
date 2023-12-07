@@ -1,3 +1,5 @@
+
+
 import * as React from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -13,7 +15,7 @@ export default function MultiActionAreaCard() {
           component="img"
           height="140"
           image="/static/images/cards/contemplative-reptile.jpg"
-          alt="green iguana"
+          alt="super action area"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
