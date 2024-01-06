@@ -3,7 +3,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Link from 'next/link'
 import Image from 'next/image'
-import logo from '../app/images/logo.png';
+import logo from '../public/images/logo.png';
 
 const inter = Inter({ subsets: ['latin'] })
 

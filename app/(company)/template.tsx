@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
-import logo from '../images/logo.png';
+import logo from '../../public/images/logo.png';
 
 const CompanyLayout = ({ children }: { children: React.ReactNode }) => {
   return (

@@ -11,8 +11,12 @@ import 'swiper/css/navigation';
 
 import './styles.scss';
 import Image from 'next/image'
-import gregasshop from '../home/gregasshop.png';
-import gregasshopstrapi from '../home/gregasshopstrapi.png';
+import gregasshop from '../../../public/images/gregasshop.png';
+import bagsshop from '../../../public/images/bagsshop.png';
+import gameblog from '../../../public/images/gameblog.jpg';
+import gregasstrapi from '../../../public/images/gregasstrapi.png';
+import next from '../../../public/images/next.svg';
+import vercel from '../../../public/images/vercel.svg';
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
@@ -35,14 +39,11 @@ export default function App() {
         className="mySwiper"
       >
         <SwiperSlide><Image className='rounded' src={gregasshop} alt=""/></SwiperSlide>
-        <SwiperSlide><Image className='rounded' src={gregasshopstrapi} alt=""/></SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide><Image className='rounded' src={bagsshop} alt=""/></SwiperSlide>
+        <SwiperSlide><Image className='rounded' src={gameblog} alt=""/></SwiperSlide>
+        <SwiperSlide><Image className='rounded' src={gregasstrapi} alt=""/></SwiperSlide>
+        <SwiperSlide><Image className='rounded' src={next} alt=""/></SwiperSlide>
+        <SwiperSlide><Image className='rounded' src={vercel} alt=""/></SwiperSlide>
       </Swiper>
     </>
   );

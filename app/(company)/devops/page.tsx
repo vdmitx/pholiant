@@ -30,7 +30,7 @@ export default async function Page() {
                 }
             }
         `}</pre>
-        <h3>What?</h3>
+        <h3></h3>
         <p>Example</p>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne merninisti licere mihi ista
