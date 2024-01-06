@@ -73,7 +73,8 @@ export default async function Page() {
         .then(response => console.log(response));
         `}
       </code></pre>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, sapiente.</p>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum quisquam non beatae repellendus corrupti laudantium rerum voluptates tenetur consectetur nostrum.</p>
     </div>
-
   )
 }
